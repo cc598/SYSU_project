@@ -22,7 +22,7 @@ import cn.sysu.json.helper.Util;
  * 3.查看我的comment
  * 4.关键词查找评论
  * @CreateTime: 2018-5-8 下午4:36:37 
- * @author: bee
+ * @author: cc598
  */
 public class CommentServlet extends BaseServlet {
 
@@ -32,7 +32,7 @@ public class CommentServlet extends BaseServlet {
 	 * 
 	 * @Description: 增加一条评论
 	 * 传入参数：content, art_id, authorId
-	 * @author: bee
+	 * @author: cc598
 	 * @CreateTime: 2018-5-9 上午12:06:45 
 	 */
 	public void add(HttpServletRequest request, HttpServletResponse response)
@@ -55,7 +55,7 @@ public class CommentServlet extends BaseServlet {
 	 * 
 	 * @Description: 删除评论
 	 * 传入参数：评论id, 文章id
-	 * @author: bee
+	 * @author: cc598
 	 * @CreateTime: 2018-5-9 上午12:32:37 
 	 */
 	public void delete(HttpServletRequest request, HttpServletResponse response)
@@ -77,7 +77,7 @@ public class CommentServlet extends BaseServlet {
 	/**
 	 * 
 	 * @Description: 我的评论
-	 * @author: bee
+	 * @author: cc598
 	 * @CreateTime: 2018-5-9 下午2:22:11 
 	 */
 	public void findMyComments(HttpServletRequest request, HttpServletResponse response)
@@ -94,7 +94,7 @@ public class CommentServlet extends BaseServlet {
 	 * 
 	 * @Description: 通过关键词查找评论
 	 * 传入参数：关键词
-	 * @author: bee
+	 * @author: cc598
 	 * @CreateTime: 2018-5-9 下午4:40:34 
 	 */
 	public void findCommentsByKey(HttpServletRequest request, HttpServletResponse response)

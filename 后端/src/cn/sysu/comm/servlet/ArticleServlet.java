@@ -30,7 +30,7 @@ import cn.sysu.json.helper.Util;
  * 5. 查看该文章下所有评论
  * 6. 查找文章（通过关键词）
  * @CreateTime: 2018-5-8 下午4:42:42 
- * @author: bee
+ * @author: cc598
  */
 
 public class ArticleServlet extends BaseServlet {
@@ -42,7 +42,7 @@ public class ArticleServlet extends BaseServlet {
 	 * @Description: 
 	 * 添加文章
 	 * 需要html传来参数：Userid（在session中）	文章内容  文章标题 分类 
-	 * @author: bee
+	 * @author: cc598
 	 * @CreateTime: 2018-5-8 下午4:48:22 
 	 */
 	public void add(HttpServletRequest request, HttpServletResponse response)
@@ -87,7 +87,7 @@ public class ArticleServlet extends BaseServlet {
 	 * @Description: 
 	 * 更新文章
 	 * 需要参数：文章id，标题，内容，分类
-	 * @author: bee
+	 * @author: cc598
 	 * @CreateTime: 2018-5-8 下午5:12:55 
 	 */
 	public void update(HttpServletRequest request, HttpServletResponse response)
@@ -108,7 +108,7 @@ public class ArticleServlet extends BaseServlet {
 	 * 
 	 * @Description: 删除文章
 	 * 传进来的参数为articleid
-	 * @author: bee
+	 * @author: cc598
 	 * @CreateTime: 2018-5-8 下午5:23:27 
 	 */
 	public void delete(HttpServletRequest request, HttpServletResponse response)
@@ -133,7 +133,7 @@ public class ArticleServlet extends BaseServlet {
 	 * 
 	 * @Description: 查看某一文章
 	 * 传递参数：文章id
-	 * @author: bee
+	 * @author: cc598
 	 * @CreateTime: 2018-5-8 下午5:28:06 
 	 */
 	public void show(HttpServletRequest request, HttpServletResponse response)
@@ -169,7 +169,7 @@ public class ArticleServlet extends BaseServlet {
 	 * 
 	 * @Description: 通过关键词查找文章
 	 * 传入参数为关键词
-	 * @author: bee
+	 * @author: cc598
 	 * @CreateTime: 2018-5-8 下午7:05:13 
 	 */
 	public void findByKey(HttpServletRequest request, HttpServletResponse response)
